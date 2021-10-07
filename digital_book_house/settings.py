@@ -87,11 +87,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'OPTIONS': {
-            'options': '-c search_path=project'
+            'options': '-c search_path=project' #schema name 'project'got
         },
-        'NAME': 'db_202021z_va_prj_digitalbookhouse',
-        'USER': 'db_202021z_va_prj_digitalbookhouse_owner',
-        'PASSWORD': 'testpassword123',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '2000',
     }
